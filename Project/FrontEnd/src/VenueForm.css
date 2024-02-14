@@ -1,0 +1,51 @@
+/* VenueForm.css */
+
+.venue-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .venue-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .venue-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .venue-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .venue-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .venue-form button[type="submit"] {
+    margin-top: 20px;
+    background-color: #28a745;
+  }
+  
+  .venue-form button[type="button"] {
+    margin-top: 10px;
+    background-color: #dc3545;
+  }
+  
+  .venue-form button[type="submit"]:hover,
+  .venue-form button[type="button"]:hover {
+    opacity: 0.8;
+  }

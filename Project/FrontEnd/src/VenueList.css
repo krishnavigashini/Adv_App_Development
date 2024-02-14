@@ -1,0 +1,70 @@
+/* VenueList.css */
+
+.venuebody {
+  background-image: url("../src/photo/form.webp");
+  background-repeat: no-repeat;
+  width: 1560px;
+  height: 735px;
+  margin-top: -80px;
+  margin-left: -200px;
+}
+
+.venue-list-container {
+  max-width: 800px;
+  width: 500px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  padding: 20px;
+
+}
+
+.venue-list {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.venue-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.venue-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.venue-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.venue-name,
+.venue-description {
+  margin-bottom: 10px;
+}
+
+.venue-buttons button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+.venue-buttons button:hover {
+  background-color: #45a049;
+}
+
+.venue-buttons button:last-child {
+  margin-left: auto;
+  display: block;
+}

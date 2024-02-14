@@ -1,0 +1,69 @@
+/* ThemeList.css */
+
+.themebody {
+  background-image: url("../src/photo/form.webp");
+  background-repeat: no-repeat;
+  width: 1560px;
+  height: 735px;
+  margin-top: -80px;
+  margin-left: -200px;
+}
+
+.themelist-container {
+  max-width: 800px;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+.theme-list {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.theme-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.theme-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.theme-name,
+.theme-description {
+  margin-bottom: 10px;
+}
+
+.theme-buttons button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+.theme-buttons button:hover {
+  background-color: #45a049;
+}
+
+.theme-buttons button:last-child {
+  margin-left: auto;
+  display: block;
+}

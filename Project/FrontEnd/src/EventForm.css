@@ -1,0 +1,50 @@
+.event-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .event-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .event-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .event-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .event-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .event-form button[type="submit"] {
+    margin-top: 20px;
+    background-color: #28a745;
+  }
+  
+  .event-form button[type="button"] {
+    margin-top: 10px;
+    background-color: #dc3545;
+  }
+  
+  .event-form button[type="submit"]:hover,
+  .event-form button[type="button"]:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,9 @@
+.adminhome
+{
+    background-image: url("./src/photo/adminhome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1600px;
+    height: 400px;
+    margin-left: -200px;
+}
